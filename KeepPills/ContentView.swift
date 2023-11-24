@@ -28,12 +28,14 @@ struct ContentView: View {
                     .foregroundColor(.gray)
             },
             icon: {
-                Image(systemName: "heart")
+                Image(systemName: "SF Symbols 5")
                     .font(.largeTitle)
                     .foregroundColor(.red)
             })
     }
 
+    
+    
 /*
     func startTimer() {
         Timer.scheduledTimer(withTimeInterval: 60, repeats: true) { _ in self.todayDate = Date()}
